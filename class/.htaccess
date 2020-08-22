@@ -1,0 +1,27 @@
+# Protect the .htaccess
+
+<Files .htaccess>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect paypal_checkout class
+
+<Files paypal_checkout.class.php>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect the vote plugin class
+
+<Files vote_plugin.class.php>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect the vote ranking class
+
+<Files vote_ranking.class.php>
+	Order Allow,Deny
+	Deny from all
+</Files>

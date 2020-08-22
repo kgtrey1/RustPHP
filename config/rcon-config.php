@@ -1,0 +1,1 @@
+<?php $rcon_host = "109.10.198.23"; $rcon_port = 28016; $rcon_password = "asc"; ?>

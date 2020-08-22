@@ -1,0 +1,42 @@
+# Protect the .htaccess
+
+<Files .htaccess>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect news_add.php
+
+<Files news_add.php>
+	SetEnvIfNoCase X-Requested-With XMLHttpRequest ajax
+	Order Deny,Allow
+	Deny from all
+	Allow from env=ajax
+</Files>
+
+# Protect news_delete.php
+
+<Files news_delete.php>
+	SetEnvIfNoCase X-Requested-With XMLHttpRequest ajax
+	Order Deny,Allow
+	Deny from all
+	Allow from env=ajax
+</Files>
+
+# Protect news_edit.php
+
+<Files news_edit.php>
+	SetEnvIfNoCase X-Requested-With XMLHttpRequest ajax
+	Order Deny,Allow
+	Deny from all
+	Allow from env=ajax
+</Files>
+
+# Protect news_get.php
+
+<Files news_get.php>
+	SetEnvIfNoCase X-Requested-With XMLHttpRequest ajax
+	Order Deny,Allow
+	Deny from all
+	Allow from env=ajax
+</Files>

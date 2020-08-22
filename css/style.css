@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.list-group-item.active
+{
+	background-color: rgb(66, 139, 202);
+}
+
+.vote-ranking-end-row
+{
+	border: 1px solid #ccc;
+}
+
+.vote-ranking-row
+{
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.vote-ranking-table
+{
+	width: 90%;
+}
+
+.vote-ranking-title
+{
+	text-align: center;
+	font-size: 30px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.vote-ranking-table-container
+{
+	width: 80%;
+	border: 1px solid #ccc;
+	border-radius: .25rem;
+}
+
+.vote-ranking-container
+{
+	padding: 40px 0px 40px 0px;
+}
+
+.vote-button
+{
+	width: 50%;
+	margin-top: 10px;
+}
+
+.vote-link
+{
+	color: #5e6268;
+	font-weight: bold;
+}
+
+.vote-container
+{
+	background: white;
+	padding: 2% 4% 0% 4%;
+}
+
+#vote
+{
+	display: flex;
+}
+
+body
+{
+	background-image: url("./../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+
+
+/* <-- Social --> */
+
+#social
+{
+	padding: 3%;
+	background: url("./../img/social/background.jpg");
+	border-bottom: solid 2px #cdcdcd;
+}
+
+.social-card
+{
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+	transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.social-card:hover
+{
+	transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.social-card img
+{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.social-card-1
+{
+  background-image: url(./../img/social/discord.png);
+	background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+.social-card-2
+{
+	background-image: url(./../img/social/steam.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 80px;
+}
+
+.social-card-3
+{
+	background-image: url(./../img/social/rust.png);
+	background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+.social-text
+{
+	color: black;
+}
+
+.social-text:hover
+{
+	text-decoration: none;
+	color:black;
+}
+
+.social-h3
+{
+  font-weight: 600;
+}
+
+@media(max-width: 990px)
+{
+	.card
+	{
+    margin: 20px;
+  }
+}
+
+/* <-- End of the social --> */
+
+/* <-- News --> */
+
+#news
+{
+	border-bottom: solid 1px #cdcdcd;
+	padding:1%;
+	background-color: #f7f7f7;
+}
+
+.news
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.news-title
+{
+	margin-bottom: 2%;
+}
+
+.news-title-left
+{
+	text-align: right;
+	font-style: italic;
+}
+
+.news-date
+{
+	display: inline-block;
+	margin-left: 21%;
+	font-style: italic;
+	font-size: 15px;
+}
+
+/* <-- End of the news --> */
+
+/* <-- Slider --> */
+
+#slider
+{
+	padding: 3%;
+	background: url("../img/background.jpg");
+	border-bottom: solid 2px #cdcdcd;
+}
+
+/* <-- End of the slider --> */
+
+/*  <=== HEADER STYLE ===>  */
+
+
+/* <-- Top navbar --> */
+
+.top-nav
+{
+	background: #000000;
+	
+}
+
+.top-nav-ul
+{
+	margin: 0;
+	text-align: right;
+	list-style: none;
+}
+
+.top-nav-li
+{
+	display: inline-block;
+	margin-left: 20px;
+	padding: 8px 0px 8px 0px;
+}
+
+.top-nav-a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.top-nav-a:hover
+{
+	color: #E3E2E2;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+/* <-- End of the top navbar --> */
+
+/* <-- Navbar --> */
+
+.nav-b
+{
+	background: #1B1D1B;
+	border-bottom: 5px solid #A94545;
+}
+
+.nav-ul
+{
+	text-align: center;
+	margin: 0;
+	list-style: none;
+}
+
+.nav-li
+{
+	display: inline-block;
+	padding: 40px 7px 40px 7px;
+}
+
+.nav-li:hover
+{
+	display: inline-block;
+	padding: 40px 7px 40px 7px;
+	background-color: #A94545;
+}
+
+.nav-a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.nav-a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.nav-d:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 42px 7px 42px 7px;
+	background-color: #A94545;
+}
+
+.nav-d
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 42px 7px 42px 7px;
+}
+
+
+.nav-img
+{
+	margin-right: 5px;
+	width: 15px;
+	height: 15px;
+}
+
+/* <-- End of the navbar --> */
+
+
+/*  <=== END OF THE HEADER STYLE ===>  */
+	

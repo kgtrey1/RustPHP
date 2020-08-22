@@ -1,0 +1,20 @@
+# Protect the .htaccess
+
+<Files .htaccess>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect template/news_add.php
+
+<Files news_add.php>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect template/news_edit.php
+
+<Files news_edit.php>
+	Order Allow,Deny
+	Deny from all
+</Files>

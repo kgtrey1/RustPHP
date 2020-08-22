@@ -1,0 +1,20 @@
+# Protect the .htaccess
+
+<Files .htaccess>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect the vote plugin template
+
+<Files vote_plugin.php>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Protect the vote ranking template
+
+<Files vote_ranking.php>
+	Order Allow,Deny
+	Deny from all
+</Files>
